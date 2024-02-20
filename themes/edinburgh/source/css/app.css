@@ -98,11 +98,11 @@ div#amplitude-right {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis; }
-    div#amplitude-right div.song img.bandcamp-grey {
+    div#amplitude-right div.song img.icon-grey {
       float: left;
       display: block;
       margin-top: 10px; }
-    div#amplitude-right div.song img.bandcamp-white {
+    div#amplitude-right div.song img.icon-white {
       float: left;
       display: none;
       margin-top: 10px; }

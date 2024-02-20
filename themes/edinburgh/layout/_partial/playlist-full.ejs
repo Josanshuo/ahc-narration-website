@@ -13,7 +13,8 @@
                         <span class="amplitude-current-minutes" ></span>:<span class="amplitude-current-seconds"></span>
                     </span>
                     <div id="progress-container">
-                        <input type="range" class="amplitude-song-slider"/>
+                        <div class="amplitude-wave-form"></div>
+                        <input type="range" id="song-percentage-played" class="amplitude-song-slider"/>
                         <progress id="song-played-progress" class="amplitude-song-played-progress"></progress>
                         <progress id="song-buffered-progress" class="amplitude-buffered-progress" value="0"></progress>
                     </div>
@@ -60,8 +61,8 @@
 
         <!-- Right Side Player -->
         <div id="amplitude-right">
-            <% for (var song in site.data.playlist[item.playlist]){ %>
-            <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="0">
+            <% for(var i=0; i < site.data.playlist[item.playlist].length; i++) { %>
+            <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="<%= i %>">
                 <div class="song-now-playing-icon-container">
                     <div class="play-button-container">
 
@@ -69,14 +70,14 @@
                     <img class="now-playing" src="/img/now-playing.svg"/>
                 </div>
                 <div class="song-meta-data">
-                    <span class="song-title"><%= site.data.playlist[page.playlist][song].name %></span>
-                    <span class="song-artist"><%= site.data.playlist[page.playlist][song].artist %></span>
+                    <span class="song-title"><%= site.data.playlist[page.playlist][i].name %></span>
+                    <span class="song-artist"><%= site.data.playlist[page.playlist][i].artist %></span>
                 </div>
-                <a href="https://switchstancerecordings.bandcamp.com/track/risin-high-feat-raashan-ahmad" class="bandcamp-link" target="_blank">
-                    <img class="bandcamp-grey" src="/img/bandcamp-grey.svg"/>
-                    <img class="bandcamp-white" src="/img/bandcamp-white.svg"/>
+                <a href="<%= site.data.playlist[page.playlist][i].youtube %>" class="icon-link" target="_blank">
+                    <img class="icon-grey" src="/img/youtube-grey.svg"/>
+                    <img class="icon-white" src="/img/youtube-white.svg"/>
                 </a>
-                <span class="song-duration"><%= site.data.playlist[page.playlist][song].duration %></span>
+                <span class="song-duration"><%= site.data.playlist[page.playlist][i].duration %></span>
             </div>
             <% } %>
         </div>

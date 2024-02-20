@@ -1,12 +1,12 @@
 <script>
 /*
-	When the bandcamp link is pressed, stop all propagation so AmplitudeJS doesn't
+	When the icon link is pressed, stop all propagation so AmplitudeJS doesn't
 	play the song.
 */
-let bandcampLinks = document.getElementsByClassName('bandcamp-link');
+let iconLinks = document.getElementsByClassName('icon-link');
 
-for( var i = 0; i < bandcampLinks.length; i++ ){
-	bandcampLinks[i].addEventListener('click', function(e){
+for( var i = 0; i < iconLinks.length; i++ ){
+	iconLinks[i].addEventListener('click', function(e){
 		e.stopPropagation();
 	});
 }
@@ -28,8 +28,8 @@ for( var i = 0; i < songElements.length; i++ ){
 			this.querySelectorAll('.play-button-container')[0].style.display = 'block';
 		}
 
-		this.querySelectorAll('img.bandcamp-grey')[0].style.display = 'none';
-		this.querySelectorAll('img.bandcamp-white')[0].style.display = 'block';
+		this.querySelectorAll('img.icon-grey')[0].style.display = 'none';
+		this.querySelectorAll('img.icon-white')[0].style.display = 'block';
 		this.querySelectorAll('.song-duration')[0].style.color = '#FFFFFF';
 	});
 
@@ -41,8 +41,8 @@ for( var i = 0; i < songElements.length; i++ ){
 		this.querySelectorAll('.song-meta-data .song-title')[0].style.color = '#272726';
 		this.querySelectorAll('.song-meta-data .song-artist')[0].style.color = '#607D8B';
 		this.querySelectorAll('.play-button-container')[0].style.display = 'none';
-		this.querySelectorAll('img.bandcamp-grey')[0].style.display = 'block';
-		this.querySelectorAll('img.bandcamp-white')[0].style.display = 'none';
+		this.querySelectorAll('img.icon-grey')[0].style.display = 'block';
+		this.querySelectorAll('img.icon-white')[0].style.display = 'none';
 		this.querySelectorAll('.song-duration')[0].style.color = '#607D8B';
 	});
 
@@ -58,12 +58,28 @@ for( var i = 0; i < songElements.length; i++ ){
 	Initializes AmplitudeJS
 */
 Amplitude.init({
+    debug: true,
 	continue_next: false,
-	callbacks: {
-		song_change: function(){
-			alert('here');
-		}
-	},
+    "bindings": {
+        37: 'prev',
+        39: 'next',
+        32: 'play_pause'
+    },
+    "callbacks": {
+        timeupdate: function(){
+            let percentage = Amplitude.getSongPlayedPercentage();
+
+            if( isNaN( percentage ) ){
+                percentage = 0;
+            }
+
+            /**
+             * Massive Help from: https://nikitahl.com/style-range-input-css
+             */
+            let slider = document.getElementById('song-percentage-played');
+            slider.style.backgroundSize = percentage + '% 100%';
+        }
+    },
 	"songs": [
 <% for (var song in site.data.playlist[page.playlist]) { %>
     {
@@ -75,5 +91,11 @@ Amplitude.init({
     },
 <% } %>
 	]
+});
+
+window.addEventListener('keydown', function(e) {
+  if(e.keyCode == 32 && e.target == document.body) {
+    e.preventDefault();
+  }
 });
 </script>
