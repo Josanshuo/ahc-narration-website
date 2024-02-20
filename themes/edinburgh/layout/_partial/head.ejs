@@ -31,16 +31,13 @@
       <meta name="author" content="<%= config.author %>">
   <% } %>
 
-  <!-- Pure CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans:300,800" rel="stylesheet">
-
+    <!-- Pure CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans:300,800" rel="stylesheet">
+  
   <% if (page.playlist){ %>
-    
     <!-- Amplitude min js and css  -->
     <%- partial('amplitudejs-head') %>
-    <!-- Amplitude js load songs-->
-    <%- partial('amplitudejs-js') %>
   <% } else { %> 
     <!-- Custom CSS -->
     <%- css('css/styles.css') %>
