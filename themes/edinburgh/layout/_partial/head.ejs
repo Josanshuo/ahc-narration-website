@@ -35,8 +35,17 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans:300,800" rel="stylesheet">
 
-  <!-- Custom CSS -->
-  <%- css('css/styles.css') %>
+  <% if (page.playlist){ %>
+    
+    <!-- Amplitude min js and css  -->
+    <%- partial('amplitudejs-head') %>
+    <!-- Amplitude js load songs-->
+    <%- partial('amplitudejs-js') %>
+  <% } else { %> 
+    <!-- Custom CSS -->
+    <%- css('css/styles.css') %>
+  <% } %>
+  
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
