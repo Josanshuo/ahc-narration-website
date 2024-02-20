@@ -58,12 +58,15 @@ for( var i = 0; i < songElements.length; i++ ){
 	Initializes AmplitudeJS
 */
 Amplitude.init({
-    debug: true,
+    debug: false,
 	continue_next: false,
     "bindings": {
         37: 'prev',
         39: 'next',
         32: 'play_pause'
+    },
+    waveforms: {
+        sample_rate: 50
     },
     "callbacks": {
         timeupdate: function(){

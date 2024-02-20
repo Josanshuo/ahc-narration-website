@@ -63,7 +63,7 @@ prismjs:
 index_generator:
   path: ''
   per_page: 100
-  order_by: -date
+  order_by: playlist
 
 # Category & Tag
 default_category: uncategorized
