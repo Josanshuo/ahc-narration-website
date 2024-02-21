@@ -1,130 +1,130 @@
 c0-01:
-- name: 01-導引故事
+- album: 狂熱之夜01 - 聚集於此
   artist: 不可名狀的玩家
-  album: 狂熱之夜01 - 聚集於此
-  url: /playlists/c0/01/01-導引故事.mp3
   cover: /covers/01 Zealot.png
-  youtube: https://www.youtube.com/watch?v=hVe-A8CJlyk&list=PLECCPPx48krLv9zE37O2N8lKXDdXYtZZz
   duration: 00:53
-- name: 02-聚集於此
+  name: 01-導引故事
+  url: /playlists/c0/01/01-導引故事.mp3
+  youtube: https://www.youtube.com/watch?v=hVe-A8CJlyk&list=PLECCPPx48krLv9zE37O2N8lKXDdXYtZZz
+- album: 狂熱之夜01 - 聚集於此
   artist: 不可名狀的玩家
-  album: 狂熱之夜01 - 聚集於此
+  cover: /covers/01 Zealot.png
+  duration: 00:33
+  name: 02-聚集於此
   url: /playlists/c0/01/02-聚集於此.mp3
-  cover: /covers/01 Zealot.png
   youtube: https://www.youtube.com/watch?v=hVe-A8CJlyk&list=PLECCPPx48krLv9zE37O2N8lKXDdXYtZZz
-  duration: 00:33
-- name: 03-密謀1A
+- album: 狂熱之夜01 - 聚集於此
   artist: 不可名狀的玩家
-  album: 狂熱之夜01 - 聚集於此
+  cover: /covers/01 Zealot.png
+  duration: 00:21
+  name: 03-密謀1A
   url: /playlists/c0/01/03-密謀1A.mp3
-  cover: /covers/01 Zealot.png
   youtube: https://www.youtube.com/watch?v=hVe-A8CJlyk&list=PLECCPPx48krLv9zE37O2N8lKXDdXYtZZz
-  duration: 00:21
-- name: 04-場景1A
+- album: 狂熱之夜01 - 聚集於此
   artist: 不可名狀的玩家
-  album: 狂熱之夜01 - 聚集於此
-  url: /playlists/c0/01/04-場景1A.mp3
   cover: /covers/01 Zealot.png
-  youtube: https://www.youtube.com/watch?v=hVe-A8CJlyk&list=PLECCPPx48krLv9zE37O2N8lKXDdXYtZZz
   duration: 00:13
-- name: 05-密謀1B
+  name: 04-場景1A
+  url: /playlists/c0/01/04-場景1A.mp3
+  youtube: https://www.youtube.com/watch?v=hVe-A8CJlyk&list=PLECCPPx48krLv9zE37O2N8lKXDdXYtZZz
+- album: 狂熱之夜01 - 聚集於此
   artist: 不可名狀的玩家
-  album: 狂熱之夜01 - 聚集於此
+  cover: /covers/01 Zealot.png
+  duration: 00:16
+  name: 05-密謀1B
   url: /playlists/c0/01/05-密謀1B.mp3
-  cover: /covers/01 Zealot.png
   youtube: https://www.youtube.com/watch?v=hVe-A8CJlyk&list=PLECCPPx48krLv9zE37O2N8lKXDdXYtZZz
-  duration: 00:16
-- name: 06-密謀2A
+- album: 狂熱之夜01 - 聚集於此
   artist: 不可名狀的玩家
-  album: 狂熱之夜01 - 聚集於此
-  url: /playlists/c0/01/06-密謀2A.mp3
   cover: /covers/01 Zealot.png
-  youtube: https://www.youtube.com/watch?v=hVe-A8CJlyk&list=PLECCPPx48krLv9zE37O2N8lKXDdXYtZZz
   duration: 00:20
-- name: 07-密謀2B
+  name: 06-密謀2A
+  url: /playlists/c0/01/06-密謀2A.mp3
+  youtube: https://www.youtube.com/watch?v=hVe-A8CJlyk&list=PLECCPPx48krLv9zE37O2N8lKXDdXYtZZz
+- album: 狂熱之夜01 - 聚集於此
   artist: 不可名狀的玩家
-  album: 狂熱之夜01 - 聚集於此
+  cover: /covers/01 Zealot.png
+  duration: 00:18
+  name: 07-密謀2B
   url: /playlists/c0/01/07-密謀2B.mp3
-  cover: /covers/01 Zealot.png
   youtube: https://www.youtube.com/watch?v=hVe-A8CJlyk&list=PLECCPPx48krLv9zE37O2N8lKXDdXYtZZz
-  duration: 00:18
-- name: 08-密謀3A
+- album: 狂熱之夜01 - 聚集於此
   artist: 不可名狀的玩家
-  album: 狂熱之夜01 - 聚集於此
-  url: /playlists/c0/01/08-密謀3A.mp3
   cover: /covers/01 Zealot.png
-  youtube: https://www.youtube.com/watch?v=hVe-A8CJlyk&list=PLECCPPx48krLv9zE37O2N8lKXDdXYtZZz
   duration: 00:16
-- name: 09-密謀3B
+  name: 08-密謀3A
+  url: /playlists/c0/01/08-密謀3A.mp3
+  youtube: https://www.youtube.com/watch?v=hVe-A8CJlyk&list=PLECCPPx48krLv9zE37O2N8lKXDdXYtZZz
+- album: 狂熱之夜01 - 聚集於此
   artist: 不可名狀的玩家
-  album: 狂熱之夜01 - 聚集於此
+  cover: /covers/01 Zealot.png
+  duration: 00:22
+  name: 09-密謀3B
   url: /playlists/c0/01/09-密謀3B.mp3
-  cover: /covers/01 Zealot.png
   youtube: https://www.youtube.com/watch?v=hVe-A8CJlyk&list=PLECCPPx48krLv9zE37O2N8lKXDdXYtZZz
-  duration: 00:22
-- name: 10-場景1B
+- album: 狂熱之夜01 - 聚集於此
   artist: 不可名狀的玩家
-  album: 狂熱之夜01 - 聚集於此
-  url: /playlists/c0/01/10-場景1B.mp3
   cover: /covers/01 Zealot.png
-  youtube: https://www.youtube.com/watch?v=hVe-A8CJlyk&list=PLECCPPx48krLv9zE37O2N8lKXDdXYtZZz
   duration: 00:33
-- name: 11-場景2A
-  artist: 不可名狀的玩家
-  album: 狂熱之夜01 - 聚集於此
-  url: /playlists/c0/01/11-場景2A.mp3
-  cover: /covers/01 Zealot.png
+  name: 10-場景1B
+  url: /playlists/c0/01/10-場景1B.mp3
   youtube: https://www.youtube.com/watch?v=hVe-A8CJlyk&list=PLECCPPx48krLv9zE37O2N8lKXDdXYtZZz
+- album: 狂熱之夜01 - 聚集於此
+  artist: 不可名狀的玩家
+  cover: /covers/01 Zealot.png
   duration: 00:22
-- name: 12-場景2B
-  artist: 不可名狀的玩家
-  album: 狂熱之夜01 - 聚集於此
-  url: /playlists/c0/01/12-場景2B.mp3
-  cover: /covers/01 Zealot.png
+  name: 11-場景2A
+  url: /playlists/c0/01/11-場景2A.mp3
   youtube: https://www.youtube.com/watch?v=hVe-A8CJlyk&list=PLECCPPx48krLv9zE37O2N8lKXDdXYtZZz
+- album: 狂熱之夜01 - 聚集於此
+  artist: 不可名狀的玩家
+  cover: /covers/01 Zealot.png
   duration: 00:18
-- name: 13-場景3A
-  artist: 不可名狀的玩家
-  album: 狂熱之夜01 - 聚集於此
-  url: /playlists/c0/01/13-場景3A.mp3
-  cover: /covers/01 Zealot.png
+  name: 12-場景2B
+  url: /playlists/c0/01/12-場景2B.mp3
   youtube: https://www.youtube.com/watch?v=hVe-A8CJlyk&list=PLECCPPx48krLv9zE37O2N8lKXDdXYtZZz
+- album: 狂熱之夜01 - 聚集於此
+  artist: 不可名狀的玩家
+  cover: /covers/01 Zealot.png
   duration: 00:21
-- name: 14-場景3B
-  artist: 不可名狀的玩家
-  album: 狂熱之夜01 - 聚集於此
-  url: /playlists/c0/01/14-場景3B.mp3
-  cover: /covers/01 Zealot.png
+  name: 13-場景3A
+  url: /playlists/c0/01/13-場景3A.mp3
   youtube: https://www.youtube.com/watch?v=hVe-A8CJlyk&list=PLECCPPx48krLv9zE37O2N8lKXDdXYtZZz
+- album: 狂熱之夜01 - 聚集於此
+  artist: 不可名狀的玩家
+  cover: /covers/01 Zealot.png
   duration: 00:25
-- name: 15-未達成任何結局
-  artist: 不可名狀的玩家
-  album: 狂熱之夜01 - 聚集於此
-  url: /playlists/c0/01/15-未達成任何結局.mp3
-  cover: /covers/01 Zealot.png
+  name: 14-場景3B
+  url: /playlists/c0/01/14-場景3B.mp3
   youtube: https://www.youtube.com/watch?v=hVe-A8CJlyk&list=PLECCPPx48krLv9zE37O2N8lKXDdXYtZZz
+- album: 狂熱之夜01 - 聚集於此
+  artist: 不可名狀的玩家
+  cover: /covers/01 Zealot.png
   duration: 00:39
-- name: 16-結局1
-  artist: 不可名狀的玩家
-  album: 狂熱之夜01 - 聚集於此
-  url: /playlists/c0/01/16-結局1.mp3
-  cover: /covers/01 Zealot.png
+  name: 15-未達成任何結局
+  url: /playlists/c0/01/15-未達成任何結局.mp3
   youtube: https://www.youtube.com/watch?v=hVe-A8CJlyk&list=PLECCPPx48krLv9zE37O2N8lKXDdXYtZZz
+- album: 狂熱之夜01 - 聚集於此
+  artist: 不可名狀的玩家
+  cover: /covers/01 Zealot.png
   duration: 00:27
-- name: 17-結局2
-  artist: 不可名狀的玩家
-  album: 狂熱之夜01 - 聚集於此
-  url: /playlists/c0/01/17-結局2.mp3
-  cover: /covers/01 Zealot.png
+  name: 16-結局1
+  url: /playlists/c0/01/16-結局1.mp3
   youtube: https://www.youtube.com/watch?v=hVe-A8CJlyk&list=PLECCPPx48krLv9zE37O2N8lKXDdXYtZZz
+- album: 狂熱之夜01 - 聚集於此
+  artist: 不可名狀的玩家
+  cover: /covers/01 Zealot.png
   duration: 00:32
-- name: 18-結局3
-  artist: 不可名狀的玩家
-  album: 狂熱之夜01 - 聚集於此
-  url: /playlists/c0/01/18-結局3.mp3
-  cover: /covers/01 Zealot.png
+  name: 17-結局2
+  url: /playlists/c0/01/17-結局2.mp3
   youtube: https://www.youtube.com/watch?v=hVe-A8CJlyk&list=PLECCPPx48krLv9zE37O2N8lKXDdXYtZZz
+- album: 狂熱之夜01 - 聚集於此
+  artist: 不可名狀的玩家
+  cover: /covers/01 Zealot.png
   duration: 00:17
+  name: 18-結局3
+  url: /playlists/c0/01/18-結局3.mp3
+  youtube: https://www.youtube.com/watch?v=hVe-A8CJlyk&list=PLECCPPx48krLv9zE37O2N8lKXDdXYtZZz
 c0-02:
 - album: 狂熱之夜02 - 午夜假面
   artist: 不可名狀的玩家
