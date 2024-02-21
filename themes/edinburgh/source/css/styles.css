@@ -158,6 +158,28 @@ h1, h2, h3 {
   opacity: 0;
   filter: alpha(opacity=0);
 }
+
+.hovereffect figcaption{
+	position: absolute;
+	color: #FFF;
+	background-color: #000000; 
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	-webkit-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	font-size: 1.3rem;
+	font-family: 'Crimson Text', sans-serif;
+	font-weight: 300;
+	padding: 10px 20px; 
+	}
+
+.hovereffect:hover figcaption {
+	opacity: 0;
+	filter: alpha(opacity=0);
+	}
+
 .page-nav {
 	width: 50%;
 	margin: 0 auto;
