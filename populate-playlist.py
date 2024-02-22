@@ -75,6 +75,16 @@ cycle_info = {
             'album': '卡爾克薩之路06 - 蒼白面具',
             'youtube': 'https://www.youtube.com/watch?v=h9t-jS9wVb4&list=PLECCPPx48krLv9zE37O2N8lKXDdXYtZZz',
             'cover': '/covers/03 Carcosa.png'
+        },
+        '07': {
+            'album': '卡爾克薩之路07 - 黑星升起',
+            'youtube': 'https://www.youtube.com/watch?v=QIXA1XATAzc&list=PLECCPPx48krLv9zE37O2N8lKXDdXYtZZz',
+            'cover': '/covers/03 Carcosa.png'
+        },
+        '08': {
+            'album': '卡爾克薩之路08 - 卡城幽影',
+            'youtube': 'https://www.youtube.com/watch?v=zhfOGy30uqM&list=PLECCPPx48krLv9zE37O2N8lKXDdXYtZZz',
+            'cover': '/covers/03 Carcosa.png'
         }
     },
 }
