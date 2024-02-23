@@ -102,7 +102,7 @@ theme: edinburgh
 # Theme edinburgh config
 ## Header
 menu:
-  Home: /
+  首页: /
   #Instagram: https://www.instagram.com
   #LinkedIn: https://www.linkedin.com
   #Facebook: https://www.facebook.com
