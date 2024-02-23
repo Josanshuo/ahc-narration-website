@@ -66,7 +66,7 @@ index_generator:
   order_by: playlist
 
 # Category & Tag
-default_category: uncategorized
+default_category: cycle-unknown
 category_map:
 tag_map:
 
@@ -103,10 +103,15 @@ theme: edinburgh
 ## Header
 menu:
   Home: /
-  #Contact: /contact
   #Instagram: https://www.instagram.com
   #LinkedIn: https://www.linkedin.com
   #Facebook: https://www.facebook.com
+
+cycle:
+  狂热之夜: /categories/狂热之夜
+  敦威治遗产: /categories/敦威治遗产
+  卡尔克萨之路: /categories/卡尔克萨之路
+
 ## Google Analytics Tracking ID
 google_analytics:
 
