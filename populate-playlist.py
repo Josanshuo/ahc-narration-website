@@ -43,6 +43,16 @@ cycle_info = {
             'album': '敦威治遺產03 - 瘋狂列車',
             'youtube': 'https://www.youtube.com/watch?v=uvGD6VdJT60&list=PLECCPPx48krLv9zE37O2N8lKXDdXYtZZz',
             'cover': '/covers/02 Dunwich.png'
+        },
+        '04': {
+            'album': '敦威治遺產04 - 血色祭壇',
+            'youtube': 'https://www.youtube.com/watch?v=c1tcEJ2VFvw&list=PLECCPPx48krLv9zE37O2N8lKXDdXYtZZz',
+            'cover': '/covers/02 Dunwich.png'
+        },
+        '05': {
+            'album': '敦威治遺產05 - 無人知曉',
+            'youtube': 'https://www.youtube.com/watch?v=aUIZ1i6F714&list=PLECCPPx48krLv9zE37O2N8lKXDdXYtZZz',
+            'cover': '/covers/02 Dunwich.png'
         }
     },
     'c2': {
