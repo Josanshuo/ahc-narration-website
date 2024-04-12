@@ -53,6 +53,16 @@ cycle_info = {
             'album': '敦威治遺產05 - 無人知曉',
             'youtube': 'https://www.youtube.com/watch?v=aUIZ1i6F714&list=PLECCPPx48krLv9zE37O2N8lKXDdXYtZZz',
             'cover': '/covers/02 Dunwich.png'
+        },
+        '06': {
+            'album': '敦威治遺產06 - 毀滅之地',
+            'youtube': 'https://www.youtube.com/watch?v=fB-i1zHMQDM&list=PLECCPPx48krLv9zE37O2N8lKXDdXYtZZz',
+            'cover': '/covers/02 Dunwich.png'
+        },
+        '07': {
+            'album': '敦威治遺產07 - 迷失深空',
+            'youtube': 'https://www.youtube.com/watch?v=Wqh-bVPRclA&list=PLECCPPx48krLv9zE37O2N8lKXDdXYtZZz',
+            'cover': '/covers/02 Dunwich.png'
         }
     },
     'c2': {
@@ -120,5 +130,5 @@ for root, dirs, files in os.walk(playlist_directory):
 
 print(playlist_dict)
 
-with open('source/_data/playlist-gen.yml', 'w', encoding='utf-8') as outfile:
+with open('source/_data/playlist.yml', 'w', encoding='utf-8') as outfile:
     yaml.dump(playlist_dict, outfile, default_flow_style=False, allow_unicode=True, encoding="utf-8")
